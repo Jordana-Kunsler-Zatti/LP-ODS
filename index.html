@@ -1,18 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>ODS</title>
-</head>
-<body>
 
-  <div>
-    <h1></h1>
-  
-  </div>
-  
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ODS</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="labels">
+        <h1>Objetivo 3</h1>
+        <h2>Assegurar uma vida saudável e promover o bem-estar para todas e todos, em todas as idades</h2>
+      </div>
+      <img src="./img/healthIcon.png" alt="">
+    </div>
+
+    <div class="body">
+      <div class="nav-menu">
+        Menu
+        <ul>
+          <li>
+            <a class="tablink grey-bc" onclick="openObj(event, 'obj01')"> Objetivo 3.1 </a>
+          </li>
+          <li>
+            <a class="tablink" onclick="openObj(event, 'obj02')"> Objetivo 3.2 </a>
+          </li>
+          <li>
+            <a class="tablink" onclick="openObj(event, 'obj03')"> Objetivo 3.3 </a>
+          </li>
+          <li>
+            <a class="tablink" onclick="openObj(event, 'obj04')"> Objetivo 3.4 </a>
+          </li>
+          <li>
+            <a class="tablink" onclick="openObj(event, 'obj05')"> Objetivo 3.5 </a>
+          </li>
+          <li>
+            <a class="tablink" onclick="openObj(event, 'obj06')"> Objetivo 3.6 </a>
+          </li>
+          <li>
+            <a class="tablink" onclick="openObj(event, 'obj07')"> Objetivo 3.7 </a>
+          </li>
+          <li>
+            <a class="tablink" onclick="openObj(event, 'obj08')"> Objetivo 3.8 </a>
+          </li>
+          <li>
+            <a class="tablink" onclick="openObj(event, 'obj09')"> Objetivo 3.9 </a>
+          </li>
+          <li>
+            <a class="tablink" onclick="openObj(event, 'obj10')"> Objetivo 3.a </a>
+          </li>
+          <li>
+            <a class="tablink" onclick="openObj(event, 'obj11')"> Objetivo 3.b </a>
+          </li>
+          <li>
+            <a class="tablink" onclick="openObj(event, 'obj12')"> Objetivo 3.c </a>
+          </li>
+          <li>
+            <a class="tablink" onclick="openObj(event, 'obj13')"> Objetivo 3.d </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <ol>
+          <li id="obj01" class="active obj">
+            <p>
+              Até 2030, reduzir a taxa de mortalidade materna global para menos de 70 mortes por 100.000 nascidos vivos
+            </p>
+          </li>
+
+          <li id="obj02" class="inactive obj">
+            <p>
+              Até 2030, acabar com as mortes evitáveis de recém-nascidos e crianças menores de 5 anos, com todos os países objetivando reduzir a mortalidade neonatal para pelo menos 12 por 1.000 nascidos vivos e a mortalidade de crianças menores de 5 anos para pelo menos 25 por 1.000 nascidos vivos
+            </p>
+          </li>
+
+          <li id="obj03" class="inactive obj">
+            <p>
+              Até 2030, acabar com as epidemias de AIDS, tuberculose, malária e doenças tropicais negligenciadas, e combater a hepatite, doenças transmitidas pela água, e outras doenças transmissíveis
+            </p>
+          </li>
+
+          <li id="obj04" class="inactive obj">
+            <p>
+              Até 2030, reduzir em um terço a mortalidade prematura por doenças não transmissíveis via prevenção e tratamento, e promover a saúde mental e o bem-estar
+            </p>
+          </li>
+
+          <li id="obj05" class="inactive obj">
+            <p>
+              Reforçar a prevenção e o tratamento do abuso de substâncias, incluindo o abuso de drogas entorpecentes e uso nocivo do álcool
+            </p>
+          </li>
+
+          <li id="obj06" class="inactive obj">
+            <p>
+              Até 2020, reduzir pela metade as mortes e os ferimentos globais por acidentes em estradas
+          </p>
+          </li>
+
+          <li id="obj07" class="inactive obj">
+            <p>
+              Até 2030, assegurar o acesso universal aos serviços de saúde sexual e reprodutiva, incluindo o planejamento familiar, informação e educação, bem como a integração da saúde reprodutiva em estratégias e programas nacionais
+            </p>
+          </li>
+
+          <li id="obj08" class="inactive obj">
+            <p>
+              Atingir a cobertura universal de saúde, incluindo a proteção do risco financeiro, o acesso a serviços de saúde essenciais de qualidade e o acesso a medicamentos e vacinas essenciais seguros, eficazes, de qualidade e a preços acessíveis para todos
+            </p>
+          </li>
+
+          <li id="obj09" class="inactive obj">
+            <p>
+              Até 2030, reduzir substancialmente o número de mortes e doenças por produtos químicos perigosos, contaminação e poluição do ar e água do solo
+            </p>
+          </li>
+
+          <li id="obj10" class="inactive obj">
+            <p>
+              Fortalecer a implementação da Convenção-Quadro para o Controle do Tabaco em todos os países, conforme apropriado
+            </p>
+          </li>
+
+          <li id="obj11" class="inactive obj">
+            <p>
+              Apoiar a pesquisa e o desenvolvimento de vacinas e medicamentos para as doenças transmissíveis e não transmissíveis, que afetam principalmente os países em desenvolvimento, proporcionar o acesso a medicamentos e vacinas essenciais a preços acessíveis, de acordo com a Declaração de Doha, que afirma o direito dos países em desenvolvimento de utilizarem plenamente as disposições do acordo TRIPS sobre flexibilidades para proteger a saúde pública e, em particular, proporcionar o acesso a medicamentos para todos
+            </p>
+          </li>
+
+          <li id="obj12" class="inactive obj">
+            <p>
+              Aumentar substancialmente o financiamento da saúde e o recrutamento, desenvolvimento e formação, e retenção do pessoal de saúde nos países em desenvolvimento, especialmente nos países menos desenvolvidos e nos pequenos Estados insulares em desenvolvimento
+            </p>
+          </li>
+
+          <li id="obj13" class="inactive obj">
+            <p>
+              Reforçar a capacidade de todos os países, particularmente os países em desenvolvimento, para o alerta precoce, redução de riscos e gerenciamento de riscos nacionais e globais de saúde.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <script src="./script.js" ></script>
+  </body>
+
 </html>
